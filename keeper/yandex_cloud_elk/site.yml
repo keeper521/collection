@@ -1,0 +1,6 @@
+---
+- name: Create file module
+  hosts:
+    - localhost
+  roles:
+    - create_file

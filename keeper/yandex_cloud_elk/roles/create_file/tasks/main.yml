@@ -1,0 +1,5 @@
+---
+# tasks file for create_file keeper.yandex_cloud_elk.file:
+- name: Create file
+  keeper.yandex_cloud_elk.file:
+    path: ./text.txt
